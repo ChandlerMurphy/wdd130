@@ -105,10 +105,11 @@ footer a {
 
 footer a:hover {
     color: #FFE24F;
+    text-decoration: none;
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
