@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
 
+/* vvv Text Below is for the index.html content vvv */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -241,8 +243,84 @@ main section img {
     margin-bottom: 200px;
 }
 
+            /* ^^^ Text above is for the index.html content ^^^ */
+/* ------------------------------------------------------------------------------------- */
+            /* vvv Text below is for the rivers.html content vvv */
 
 
+#rivers-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#rivers-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#rivers-hero-img {
+    width: 100%;
+}
+
+#rivers-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;  
+}
+
+.rivers-home-title {
+    color: #FFE24F;
+    font-family: "Rock Salt", Tahoma, Verdana;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#rivers-top-title {
+    grid-column: 1/3;
+    text-align: center;
+    color: #396E94;
+    font-family: "Rock Salt", Tahoma, Verdana;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-main-titles {
+    color: #396E94;
+}
+
+.rivers-main-p {
+    background-color: #FFE24F;
+    color: #396E94;
+    padding: 30px;
+    border: 6px solid #396E94;
+    margin: 0 auto;
+}
+
+.rivers-img {
+    margin: 90px auto;
+    padding-top: 20px;
+    transition: transform .5s;
+}
+
+#idaho-rivers-img {
+    padding-top: 125px;
+}
+
+.rivers-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+/* ^^^ Text above is for the rivers.html content ^^^ */
 
 
 
