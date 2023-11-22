@@ -1,0 +1,93 @@
+/*----------------- The Following is code for index.html first -----------------*/
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* vvv CSS for the header and navigation bar vvv */
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #87BFFF;
+}
+
+.logo {
+    width: 100%;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+/* vvv CSS for the main body of the program vvv */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+#fam-img {
+    width: 100%;
+}
+
+h1 {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.home-intro {
+    grid-column: 2/8;
+}
+
+#couple-img {
+    grid-column: 2/4;
+    justify-self: center;
+    grid-row: 4/7;
+    width: 100%;
+    border: 7px solid #C1EDCC;
+}
+
+#individual-img {
+    grid-column: 6/8;
+    justify-self: center;
+    grid-row: 4/7;
+    width: 100%;
+    border: 7px solid #C1EDCC;
+}
+
+#couple-text {
+    grid-column: 2/4;
+    grid-row: 7/8;
+    align-self: center;
+    text-align: center;
+    background-color: #C1EDCC;
+}
+
+#individual-text {
+    grid-column: 6/8;
+    grid-row: 7/8;
+    align-self: center;
+    text-align: center;
+}
+
+.bottom-title {
+    grid-column: 2/8;
+    grid-row: 8/9;
+    align-self: center;
+    text-align: center;
+}
+
+/* vvv CSS for the footer vvv */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #87BFFF;
+}
