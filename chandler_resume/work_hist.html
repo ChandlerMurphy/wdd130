@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandler Resume</title>
+    <link rel="stylesheet" href="../chandler_resume/styles/style.css">
 </head>
 <body>
     <header>
@@ -17,41 +18,43 @@
         </nav>
     </header>
     <main class="work-grid">
-       <h1 id="work-title">Work History</h1>
+       <h1 class="work_title">Work History</h1>
        <p id="upper-work-para">
             Here are some skills and acheivements I have gained from my past experience in a variety of workplaces for 
             future employers to consider. While my time has been spent in a variety of different fields of work, 
             rest assured that my experience gives me versatility for a wide scope of many jobs!
        </p>
-       <h3 class="title">Skills</h3>
-       <section id="skills-section">
+       <h3 id="skills-title">Skills</h3>
+       <div id="skills-section">
             <p>What you can expect from working with me</p>
             <div id="standing-divider"></div>
-            <li>Greetable and Friendly Demeanor</li>
-            <li>Effiecient Customer Support</li>
-            <li>Keen Computer and Technical Skills</li>
-            <li>Adaptable</li>
-            <li>Interpersonally Reliable</li>
-            <li>Customer Oriented</li>
-       </section>
-       <h3 class="title">Past Occupations</h3>
-       <section id="past-occ-grid">
-            <img src="../chandler_resume/styles/images/rsz_work_becks.jpg" alt="work at Becks">
-            <img src="../chandler_resume/styles/images/rsz_work_sbd.jpg" alt="work at Snow Big Deal">
+            <menu id="skills-list">
+                <li>Greetable and Friendly Demeanor</li>
+                <li>Effiecient Customer Support</li>
+                <li>Keen Computer and Technical Skills</li>
+                <li>Adaptable</li>
+                <li>Interpersonally Reliable</li>
+                <li>Customer Oriented</li>
+            </menu>
+        </div>
+       <h3 id="occupations-title">Past Occupations</h3>
+       <div id="past-occ-grid">
+            <img id="becks-img" src="../chandler_resume/styles/images/rsz_work_becks.jpg" alt="work at Becks">
+            <img id="sbd-img" src="../chandler_resume/styles/images/rsz_work_sbd.jpg" alt="work at Snow Big Deal">
             <div id="becks-para">
                 <p>Sales/Inventory Associate: Becks Home Furnishings - June 2017 - May 2020</p>
-                <li>Lead high customer interaction daily</li>
-                <li>Identified for high physical output which included lots of walking, lifting, inventory shuffling, and managing customer returns.</li>
+                <p>* Lead high customer interaction daily</p>
+                <p>* Identified for high physical output which included lots of walking, lifting, inventory shuffling, and managing customer returns.</p>
             </div>
             <div id="sbd-para">
                 <p>Warehouse Manager: SnowBig Deal - Aug. 2022 - Oct. 2023</p>
-                <li>Bolstered Employee work output by considerable margins</li>
-                <li>Heightened employee to customer service dramatically</li>
-                <li>Recognized for cooperative efforts to increase customer satisfaction</li>
+                <p>* Bolstered Employee work output by considerable margins</p>
+                <p>* Heightened employee to customer service dramatically</p>
+                <p>* Recognized for cooperative efforts to increase customer satisfaction</p>
             </div>
-       </section>
-       <h3 class="title">Education</h3>
-       <section>
+        </div>
+       <h3 id="education-title">Education</h3>
+       <div id="education-section">
             <p>
                 High School Diploma - May 2020: North Sanpete High School, Trained in teamwork building exercises, Served as lead 
                 student for student technology returns and support, Computer and Online Technical support, High positive 
@@ -61,8 +64,8 @@
                 Web Development Certificate - Current 2023: Well versed in remote teamwork tasks, Python Programming and beginning 
                 website languages, Excel and Data Programming Proficiency.
             </p>
-       </section>
-       <h2 class="bottom-title">Feel free to explore the other pages linked to this page to learn more about my work experience and experience!</h2>
+        </div>
+       <h2 id="work-bottom-title">Feel free to explore the other pages linked to this page to learn more about my work experience and experience!</h2>
     </main>
     <footer>
         <p>Chandler Resume &copy; 2023 - Chandler Murphy</p>
@@ -72,7 +75,6 @@
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="../wwr/styles/images/facebook.png" alt="fb icon">
-            </a>
             </a>
             <a href="https://instagram.com" target="_blank">
                 <img src="../wwr/styles/images/instagram.png" alt="instaram icon">

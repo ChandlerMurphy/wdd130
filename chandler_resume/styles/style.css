@@ -46,7 +46,9 @@ nav a {
     transform: scale(1.5);
  }
 
-/* vvv CSS for the main body of the program vvv */
+ /* ^^^ CSS for the header and navigation bar ^^^ */
+
+/* vvv CSS for the index.html body of the program vvv */
 
 .home-grid {
     display: grid;
@@ -236,6 +238,7 @@ nav a {
     transform: rotateY(180deg);
   }
   
+  /* The flip card container - holds the below individual text edits with styles */
   /* ------------------------------------------------------------------------------- */
 
 /* #individual-text {
@@ -251,7 +254,7 @@ nav a {
     box-shadow: 5px 5px 10px #6f7364;
 } */
 
-.bottom-title {
+#home-bottom-title {
     grid-column: 2/8;
     grid-row: 8/9;
     align-self: center;
@@ -260,9 +263,207 @@ nav a {
     transition: transform .5s;
 }
 
-.bottom-title:hover {
+#home-bottom-title:hover {
     opacity: .9;
     transform: scale(1.1);
+}
+
+
+
+/* ^^^ CSS for the index.html body of the program ^^^ */
+
+/* vvv CSS for the work_hist.html body of the program vvv */
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+}
+
+.work_title {
+  grid-column: 4/6;
+  grid-row: 1/2;
+  text-align: center;
+  color: #004AAD;
+  font-family: "Roboto", "Archivo", sans-serif;
+  padding-top: 50px;
+  transition: transform .5s;
+  align-self: center;
+}
+
+.work_title:hover {
+  transform: scale(1.2);
+}
+
+#upper-work-para {
+  grid-column: 2/8;
+  grid-row: 2/3;
+  color: #FF914D;
+  text-align: center;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  font-size: large;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+#skills-title {
+  grid-column: 4/6;
+  grid-row: 3/4;
+  text-align: center;
+  color: #004AAD;
+  font-family: "Roboto", "Archivo", sans-serif;
+  padding-top: 50px;
+  padding-top: 0px;
+  align-self: flex-end;
+}
+
+#skills-section {
+  grid-column: 2/8;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: 1fr 45px 1fr;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  background-color: #C1EDCC;
+  border: 2px solid #FF914D;
+  transition: transform .5s;
+  margin-bottom: 50px;
+}
+
+#skills-section:hover {
+  transform: scale(1.2);
+}
+
+#skills-section p {
+  align-self: center;
+  margin: 0 auto;
+  color: #FF914D;
+}
+
+#standing-divider {
+  background-color: #FF914D;
+  margin: 10px;
+}
+
+#skills-list {
+  align-self: center;
+  margin: 0 auto;
+  color: #FF914D;
+}
+
+#occupations-title {
+  grid-column: 4/6;
+  grid-row: 5/6;
+  text-align: center;
+  color: #004AAD;
+  font-family: "Roboto", "Archivo", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  align-self: flex-end;
+}
+
+#past-occ-grid {
+  grid-row: 6/10;
+  grid-column: 2/8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+#becks-img {
+  border: 5px solid #FF914D;
+  margin-right: 50px;
+  transition: transform .5s;
+}
+
+#becks-img:hover {
+  opacity: .9;
+  transform: scale(1.1);
+}
+
+#becks-para {
+  border: 5px solid #FF914D;
+  margin-right: 50px;
+  padding: 15px;
+  background-color: #C1EDCC;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  color: #FF914D;
+  transition: transform .5s;
+}
+
+#becks-para:hover {
+  transform: scale(1.2);
+}
+
+#sbd-img {
+  border: 5px solid #FF914D;
+  margin-left: 50px;
+  transition: transform .5s;
+}
+
+#sbd-img:hover {
+  opacity: .9;
+  transform: scale(1.1);
+}
+
+
+#sbd-para {
+  border: 5px solid #FF914D;
+  margin-left: 50px;
+  padding: 15px;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  background-color: #C1EDCC;
+  color: #FF914D;
+  transition: transform .5s;
+}
+
+#sbd-para:hover {
+  transform: scale(1.2);
+}
+
+#education-title {
+  grid-column: 4/6;
+  grid-row: 10/11;
+  text-align: center;
+  color: #004AAD;
+  font-family: "Roboto", "Archivo", sans-serif;
+  padding-top: 50px;
+  transition: transform .5s;
+  align-self: flex-end;
+}
+
+#education-section {
+  grid-column: 3/7;
+  grid-row: 11/13;
+  color: #FF914D;
+  text-align: center;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  margin-bottom: 40px;
+  border: 3px solid #FF914D;
+  background-color: #C1EDCC;
+}
+
+#education-section p {
+  justify-self: center;
+  align-self: center;
+  margin: 50px auto;
+}
+
+#work-bottom-title {
+  grid-column: 2/8;
+  grid-row: 13/14;
+  align-self: center;
+  text-align: center;
+  font-family: "Roboto", "Archivo", sans-serif;
+  color: #004AAD;
+  transition: transform .5s;
+}
+
+#work-bottom-title:hover {
+  opacity: .9;
+  transform: scale(1.1);
 }
 
 /* vvv CSS for the footer vvv */
@@ -288,3 +489,4 @@ footer a:hover {
     color: #C1EDCC;
     transform: scale(1.5);
 }
+/* ^^^ CSS for the footer ^^^ */
