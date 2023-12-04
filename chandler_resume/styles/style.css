@@ -470,6 +470,110 @@ nav a {
   transform: scale(1.1);
 }
 
+/* ^^^ CSS for the work_hist.html body of the program ^^^ */
+
+/* vvv CSS for the experience.html body of the program vvv */
+
+#image-grid {
+  display: grid;
+  grid-row: 1/4;
+  grid-column: 1/9;
+  margin-top: 50px;
+}
+
+#code-img {
+  grid-row: 1/3;
+  grid-column: 3/5;
+  transition: transform .5s;
+}
+
+#code-img:hover {
+  transform: scale(1.2);
+}
+
+#laptop-img {
+  grid-row: 2/4;
+  grid-column: 4/6;
+  transition: transform .5s;
+}
+
+#laptop-img:hover {
+  transform: scale(1.2);
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+#exp-title {
+  text-align: center;
+  grid-column: 4/6;
+  grid-row: 1/2;
+  text-align: center;
+  color: #004AAD;
+  font-family: "Roboto", "Archivo", sans-serif;
+  padding-top: 50px;
+  transition: transform .5s;
+}
+
+#exp-title:hover {
+  transform: scale(1.2);
+}
+
+#exp-para {
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  grid-column: 2/8;
+  grid-row: 2/3;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  color: #FF914D;
+}
+
+#coding-projects-title {
+  text-align: center;
+  font-family: "Roboto", "Archivo", sans-serif;
+  color: #004AAD;
+}
+
+.coding-projects {
+  background-color: #C1EDCC;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  grid-column: 3/7;
+  grid-row: 3/6;
+  color: #FF914D;
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  border: 3px solid #FF914D;
+  transition: transform .5s;
+
+}
+
+.coding-projects:hover {
+  transform: scale(1.1);
+}
+
+
+#exp-bottom-title {
+  grid-column: 2/8;
+  grid-row: 6/7;
+  align-self: center;
+  text-align: center;
+  font-family: "Roboto", "Archivo", sans-serif;
+  color: #004AAD;
+  transition: transform .5s;
+}
+
+#exp-bottom-title:hover {
+  opacity: .9;
+  transform: scale(1.1);
+}
+
+/* ^^^ CSS for the experience.html body of the program ^^^ */
+
 /* vvv CSS for the footer vvv */
 
 footer {
